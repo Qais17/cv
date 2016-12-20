@@ -27,5 +27,12 @@
         font-size: 1.2em;
     	}
 }
+	@media screen and (max-width: 500px)
+{
+    	p{
+		color: purple;
+		background-color: blue;
+	}
+}
 
 	
