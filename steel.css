@@ -34,5 +34,8 @@
 		background-color: blue;
 	}
 }
-
-	
+	ul {
+	list-style:none; /* enlève les puce dans ul */
+	margin-left:0;
+	padding-left:0;
+	}
