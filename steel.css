@@ -14,6 +14,8 @@
 		width:100%;
 		}
 	
+	
+
 	/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 	@media screen and (max-width: 1024px)
 {
@@ -25,12 +27,5 @@
         font-size: 1.2em;
     	}
 }
-	@media screen and (max-width: 500px)
-{
-    	p
-	{
-	color: blue;
-	background-color: purple;
-	}
-}
+
 	
