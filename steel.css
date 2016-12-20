@@ -1,120 +1,36 @@
-li a {
-    		color: #000;
-		display: block;
-    		color: white;
-    		text-align: center;
-    		padding: 14px 16px;
-    		text-decoration: none;
-}
-
-
-
-
-
-.navul {
-		font-size: 45px;
-		margin-bottom: 2cm;
-
-}
-
-
-
-li {
-		color:#686868;
-		font-size:35px ; "Times New Roman", Times, serif;  
-		text-align: center;
-		font-style: italic;
- 		border-bottom: dashed 1px ;
-		text-shadow: 2px 2px #3C5144 ; 
-		display: #333D3A inline;
-		float: left ; 
-}
-
-
-
-li a:hover{
-    		background-color: white;
-   		color: #405275;
-		text-shadow: 2px 2px  black; 
-}
-
-	
-	h3 {
-    		text-shadow: 2px 2px black ;
-	
-	}
-
-	a 	{
-    		display: block;
-	}
-
-
-	a:hover {
-    		background-color: white;
-	}
-
-
-	span {
-	 	display: white block;
-	}
-	#nav 
-	{
-   margin:0;
-   padding:0;
-	}
- 
-	nav li 
-	{
-  		display:inline;
-   		padding:0;
-   		margin:0;
-	}
-	/*Changement de couleur pour les section*/
-
-	nav a {
-		background-color: white lime;
-
-	
-	}
-
-
-	body{ 
-		background-color:silver; 
-		padding-bottom: 25px ; }
-	
-
-	/*Une couleur pas trop agressif en fond*/
-
-	h1 {font-family:Impact;border-bottom: 6px solid white; background-color: #405275; color : white ; text-decoration: overline;font-size:70px; text-align: center;text-shadow: 2px 2px black ;
-	}
-	h2:hover {font-family:Impact;border-bottom: 6px solid white ;background-color:#405275 ; font-size:60px; color:white; text-align: center;text-decoration: overline;text-align: center; text-shadow: 2px 2px black;
-/* couleur en jaune */
-		color:yellow
-
-	}
-	ul {	font-family:"Times New Roman", Times, serif;
-font-size:35px ;list-style-type: none;overflow: hidden; background-color: #405275;
-	
-			
+	.body{
+		background-color: silver;
+		padding-top: 50px;
+    		
 		}
-
-	/*pour changer d'une police un peut trop basique*/
- 	
-
-
-
-	/*centré, mettre des bordure, changer la taille et la couleur c'est fun !*/
-
-	p{
-	color:#405275; text-align: center;font-size:35px ;"Times New Roman", Times, serif;border-style: double;
 	
+	h1, 
+	h2{
+		background-color: #00FFFF;
+		}
+	footer{
+		display: block;
+		position:absolute;
+		width:100%;
+		}
+	
+	/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+	@media screen and (max-width: 1024px)
+{
+    
+   	p
+	{
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    	}
+}
+	@media screen and (max-width: 500px)
+{
+    	p
+	{
+	color: blue;
+	background-color: purple;
 	}
-
-	#competence {
-			font-size: 45px;
-			font-style: italic;
-			background-color: red;
-	}
+}
 	
-	
-
