@@ -1,0 +1,51 @@
+
+
+ul {	font-family:"Times New Roman", Times, serif;
+font-size:35px ;list-style-type: none;overflow: hidden; background-color: #405275;
+ }
+nav a {
+		background-color: white lime;
+	}
+
+nav li 
+	{
+  		display:inline;
+   		padding:0;
+   		margin:0;
+	}
+
+
+span {
+display: white block;
+}
+
+a {
+    display: block;
+	}
+
+a:hover {
+	font-size: 40px ; color: white; text-shadow: 2px 2px #3C5144 ;
+   background-color: black;
+	}
+
+ li a {
+    		color: #000;
+		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+}
+
+li {
+		color:#686868;
+		font-size:35px ; 
+		text-align: center;
+		font-style: italic;
+ 		border-bottom: dashed 1px ;
+		text-shadow: 2px 2px #3C5144 ; 
+		display: #333D3A inline;
+		float: left ; 
+}
+
+
